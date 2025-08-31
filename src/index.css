@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+/* Minimal base for layout */
+html, body, #root { height: 100%; width: 100%; }
+body { background: #ffffff; color: #0f172a; min-width: 320px; margin: 0; }
